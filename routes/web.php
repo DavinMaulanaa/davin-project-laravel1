@@ -10,3 +10,8 @@ Route::get('/', function () {
 Route::get('/aku', function () {
     return view('login');
 });
+
+Route::get('/aku2', function () {
+    return view('index');
+});
+
