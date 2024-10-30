@@ -42,6 +42,6 @@
             LOGIN
         </button>
     </form>
-
+        <a class="py-12"href="{{ route('about') }}">Click here</a>
 </body>
 </html>

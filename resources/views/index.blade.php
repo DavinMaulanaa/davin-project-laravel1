@@ -19,9 +19,9 @@
         <img class="w-32 h-auto mr-[600px]" src="logoo.png" alt="logo">
         <div class="flex justify-center w-full">
             <a href="#" class="text-xl text-white px-4 mx-1 leading-[50px] transition-colors duration-300 hover:text-purple-900 relative">HOME</a>
-            <a href="page2.html" class="text-xl text-white px-4 mx-1 leading-[50px] transition-colors duration-300 hover:text-purple-900">CARS</a>
+            <a href="{{ route('login') }}" class="text-xl text-white px-4 mx-1 leading-[50px] transition-colors duration-300 hover:text-purple-900">CARS</a>
             <a href="#" class="text-xl text-white px-4 mx-1 leading-[50px] transition-colors duration-300 hover:text-purple-900">GALLERY</a>
-            <a href="#" class="text-xl text-white px-4 mx-1 leading-[50px] transition-colors duration-300 hover:text-purple-900">ABOUT</a>
+            <a href="{{ route('about') }}" class="text-xl text-white px-4 mx-1 leading-[50px] transition-colors duration-300 hover:text-purple-900">ABOUT</a>
         </div>
     </nav>
 
